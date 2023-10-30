@@ -137,13 +137,12 @@ public final class UseListsAndMaps {
          *
          * Oceania -> 38,304,000
          */
-        final Map<String, Long> map = new HashMap<>();
-        map.putAll(Map.of("Africa", 1110635000L,
-            "Americas", 972005000L,
-            "Antarctica", 0L,
-            "Asia", 4298723000L,
-            "Europe", 742452000L,
-            "Oceania", 38304000L));
+        final Map<String, Long> map = Map.of("Africa", 1110635000L,
+                "Americas", 972005000L,
+                "Antarctica", 0L,
+                "Asia", 4298723000L,
+                "Europe", 742452000L,
+                "Oceania", 38304000L);
         /*
          * 8) Compute the population of the world
          */
